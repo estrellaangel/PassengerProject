@@ -1,0 +1,204 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #345980;
+}
+
+/* HEADER STUFF */
+
+    header {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        margin: 30px;
+        background-color: white;
+        margin-left: 35%;
+        font-size: 3em;
+        margin-right: 35%;
+    }
+
+
+/* CONTENT */
+    .mainArea{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    ul{
+        list-style: none;
+    }
+
+    ul li{
+        margin-left: 15px;
+        margin-bottom: 5px;
+    }
+
+    .hide{
+        display: none;
+    }
+
+    button{
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    textarea{
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    input{
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+    /* INPUT SIDE */
+    div.inputInfo{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 30%;
+        text-align: center;
+        color: white;
+    }
+
+    ul {
+        list-style: none;
+        background-color: #4E85BF;
+        padding: 10px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    ul.mealSelect{
+        padding: 10px;
+    }
+
+    ul.extraSelect{
+        padding: 10px;
+    }
+
+    textarea{
+        resize: none;
+        height: 1.1em;
+        width: 90%;
+        overflow: hidden;
+    }
+
+    div li input#baggage{
+        margin: .5rem;
+        max-height: 1rem;
+        max-width: 2rem;
+        text-align: center;
+    }
+
+    .texts{
+        text-align: center;
+    }
+
+    div ul li legend{
+        text-align: left;
+    }
+
+    ul li ul{
+        text-align: left;
+    }
+
+        /* ENTER PASSENGER BUTTON */
+        .passengerBtn{
+            margin: 10px;
+            width: 140px;
+        }
+
+
+    /* LIST AND SEARCH AREA */
+
+    div.listArea {
+        width: 60%;
+        background-color: #1E5E9E;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        /* SEARCH TEXT AND BUTTONS ON SIDE */
+        div.categories {
+            background-color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: #1E5E9E;
+            width: 100%;
+            display: flex;
+            font-weight: bolder;
+            flex-wrap: nowrap;
+            justify-content: space-evenly;
+            margin-bottom: 20px;
+        }
+
+        .categories button {
+            width: 50px;
+            height: 1.5rem;
+        }   
+
+        .selectedBtn {
+            background-color: #1E5E9E;
+            color: white;
+            border: .5px black solid;
+        }
+
+        /* SEARCH BOXES */
+            div.search{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                width: 80%;
+            }
+
+            .searchbar {
+                width: 80%;
+                text-align: center;
+                height: 1.7em;
+            }
+
+            /* SEARCH BUTTON */
+            div.search button.searchBtn{
+                width: 60px;
+            }
+    
+    /* SPECIFIC PASSENGER INFO */
+    div.specificPassengerSearch{
+    background-color: lightblue;
+    color: black;
+    width: 500px;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 30px;
+    }
+
+    div.specificPassengerSearch a.pname {
+        font-size: 2em;
+        font-weight: bolder;
+        margin-bottom: 10px;
+    }
+
+    div.specificPassengerSearch a.idWarn{
+        color: lightslategray;
+    }
+
+    div.specificPassengerSearch button{
+        width: 100px;
+        margin-left: 40%;
+        margin-top: 15px;
+    }
+
